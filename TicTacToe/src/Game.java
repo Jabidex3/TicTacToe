@@ -94,6 +94,12 @@ public class Game {
 						System.out.println("Player 2 has won!");
 						break;
 					}
+					
+					if(p2.size()+p1.size()==9) {
+						printBoard(board);
+						System.out.println("It is a Tie!");
+						break;
+					}
 
 				}
 				
